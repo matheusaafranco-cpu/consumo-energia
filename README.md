@@ -8,7 +8,7 @@
 ## 📌 Sobre o Projeto
 A **Calculadora de Consumo Elétrico Inteligente** é uma aplicação desenvolvida em Python voltada para a conscientização energética, estimativa de consumo e previsão de custos de aparelhos eletrodomésticos.
 
- O projeto foi projetado com forte rigor de software, incluindo validação contínua de dados de entrada, laços de repetição seguros, resiliência a falhas de rede (mecanismos de *fallback*) e organização modular para facilidade de manutenção.
+O projeto foi projetado com forte rigor de software, incluindo validação contínua de dados de entrada, laços de repetição seguros, resiliência a falhas de rede (mecanismos de *fallback*) e organização modular para facilidade de manutenção.
 
 ---
 
@@ -49,14 +49,14 @@ Focada em leveza, velocidade de execução e independência de rede.
 
 ## 📐 Fórmulas Utilizadas
 
-### 1. Consumo Mensal ($kWh$)
-$$\text{Consumo Mensal (kWh)} = \frac{\text{Potência (W)} \times \text{Horas/Dia} \times 30}{1000}$$
+### 1. Consumo Mensal (kWh)
+**Consumo Mensal (kWh)** = [Potência (W) × Horas/Dia × 30] / 1000
 
-### 2. Tarifa Final com Impostos ($R\$/kWh$) — *Aplicado no `app.py`*
-$$\text{Tarifa Final} = (\text{Tarifa Base (UF)} + \text{Adicional Bandeira}) \times 1{,}22$$
+### 2. Tarifa Final com Impostos (R$/kWh) — *Aplicado no `app.py`*
+**Tarifa Final** = (Tarifa Base UF + Adicional Bandeira) × 1,22
 
-### 3. Custo Estimado Mensal ($R\$)
-$$\text{Custo Estimado (R\$)} = \text{Consumo Mensal (kWh)} \times \text{Tarifa Final (R\$/kWh)}$$
+### 3. Custo Estimado Mensal (R$)
+**Custo Estimado (R$)** = Consumo Mensal (kWh) × Tarifa Final (R$/kWh)
 
 ---
 
@@ -91,4 +91,4 @@ Ambas as versões contam com mecanismos avançados de tratamento de entradas de 
 
 1. **Clone este repositório:**
    ```bash
-   git clone SEU_LINK_DO_GITHUB_AQUI.git
+   git clone [https://github.com/matheusaafranco-cpu/consumo-energia.git](https://github.com/matheusaafranco-cpu/consumo-energia.git)
