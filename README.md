@@ -91,4 +91,4 @@ Ambas as versões contam com mecanismos avançados de tratamento de entradas de 
 
 1. **Clone este repositório:**
    ```bash
-   git clone https://github.com/matheusaafranco-cpu/consumo-energia.git
+   https://github.com/matheusaafranco-cpu/consumo-energia.git
